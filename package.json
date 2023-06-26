@@ -1,0 +1,21 @@
+{
+  "name": "edg",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "cd assets/dogcom && make && electron ../..",
+    "build": "electron-packager . edg --platform=darwin --arch=arm64 --overwrite --out=build"
+  },
+  "author": "snowlie",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "iconv-lite": "^0.6.3",
+    "node-fetch": "^3.3.1"
+  },
+  "devDependencies": {
+    "electron": "^25.2.0"
+  }
+}

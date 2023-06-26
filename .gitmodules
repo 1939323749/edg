@@ -1,0 +1,6 @@
+[submodule "assets/dogcom"]
+	path = assets/dogcom
+	url = https://github.com/1939323749/dogcom.git
+[submodule "dogcom"]
+	path = dogcom
+	url = https://github.com/1939323749/dogcom.git
